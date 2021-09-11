@@ -1,0 +1,35 @@
+let computer = Math.floor(Math.random() * 3);
+let you = prompt ("bạn chọn?")
+if (computer == 0 ) {
+    document.write ("Máy chọn búa." + '<br/>');{
+        if (you == "búa" ) {
+            document.write (" Bạn chọn búa => Hòa ")
+        } else if (you == "kéo") {
+            document.write (" Bạn chọn kéo => Máy thắng")
+        } else {
+            document.write (" Bạn chọn bao => Bạn thắng")
+        }
+    }
+}
+else if (computer == 1 ) {
+    document.write ("Máy chọn kéo."+'<br/>');{
+        if (you == "búa" ) {
+            document.write (" Bạn chọn búa => Bạn thắng ")
+        } else if (you == "kéo") {
+            document.write (" Bạn chọn kéo => Hòa")
+        } else {
+            document.write (" Bạn chọn bao => Máy thắng")
+        }
+    }
+}
+else  {
+    document.write ("Máy chọn bao."+'<br/>');{
+        if (you == "búa" ) {
+            document.write (" Bạn chọn búa => Máy thắng ")
+        } else if (you == "kéo" ) {
+            document.write (" Bạn chọn kéo => Bạn thắng")
+        } else {
+            document.write (" Bạn chọn bao => hòa")
+        }
+    }
+}
